@@ -1,0 +1,36 @@
+spring:
+  main:
+    allow-bean-definition-overriding: true
+  application:
+    name: provider-user
+  datasource:
+    type: com.zaxxer.hikari.HikariDataSource
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://192.168.43.201:3310/db_user?useUnicode=true&characterEncoding=utf-8&serverTimezone=Hongkong&useSSL=false
+    username: root
+    password: 123456
+    hikari:
+      minimum-idle: 5
+      idle-timeout: 600000
+      maximum-pool-size: 10
+      auto-commit: true
+      pool-name: MyHikariCP
+      max-lifetime: 1800000
+      connection-timeout: 30000
+      connection-test-query: SELECT 1
+
+server:
+  port: 11000
+
+dubbo:
+  scan:
+    base-packages: com.funtl.myshop.provider.service
+  protocol:
+    name: dubbo
+    port: -1
+  registry:
+    address: nacos://192.168.43.202:8848
+
+mybatis:
+  type-aliases-package: com.funtl.myshop.provider.domain
+  mapper-locations: classpath:mapper/*.xml

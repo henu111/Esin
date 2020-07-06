@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="MyBatisCodeHelperDatasource">
+    <option name="projectProfile">
+      <ProjectProfile>
+        <option name="addSerializeUid" value="true" />
+        <option name="commonMapperBaseClass" value="tk.mybatis.mapper.MyMapper" />
+        <option name="deleteByPrimayKeyEnabled" value="false" />
+        <option name="generateService" value="true" />
+        <option name="generateServiceInterface" value="true" />
+        <option name="insertMethodEnabled" value="false" />
+        <option name="insertSelectiveMethodEnabled" value="false" />
+        <option name="javaMapperPackage" value="com.funtl.myshop.provider.mapper" />
+        <option name="javaMapperPath" value="$PROJECT_DIR$/provider/provider-user-service/src/main/java" />
+        <option name="javaModelPackage" value="com.funtl.myshop.provider.domain" />
+        <option name="javaModelPath" value="$PROJECT_DIR$/provider/provider-user-service/src/main/java" />
+        <option name="lastDatabaseCrudChooseModuleName" value="provider-user-service" />
+        <option name="moduleNameToPackageAndPathMap">
+          <map>
+            <entry key="provider-user-service">
+              <value>
+                <UserPackageAndPathInfoByModule>
+                  <option name="javaMapperPackage" value="com.funtl.myshop.provider.mapper" />
+                  <option name="javaMapperPath" value="$PROJECT_DIR$/provider/provider-user-service/src/main/java" />
+                  <option name="javaModelPacakge" value="com.funtl.myshop.provider.domain" />
+                  <option name="javaModelPath" value="$PROJECT_DIR$/provider/provider-user-service/src/main/java" />
+                  <option name="javaServiceInterfacePackage" value="com.funtl.myshop.provider.service" />
+                  <option name="javaServiceInterfacePath" value="$PROJECT_DIR$/provider/provider-user-service/src/main/java" />
+                  <option name="javaServicePackage" value="com.funtl.myshop.provider.service.impl" />
+                  <option name="javaServicePath" value="$PROJECT_DIR$/provider/provider-user-service/src/main/java" />
+                  <option name="xmlPackage" value="mapper" />
+                  <option name="xmlPath" value="$PROJECT_DIR$/provider/provider-user-service/src/main/resources" />
+                </UserPackageAndPathInfoByModule>
+              </value>
+            </entry>
+          </map>
+        </option>
+        <option name="mybatisPlusStaticField" value="false" />
+        <option name="selectByPrimaryKeyEnabled" value="false" />
+        <option name="tableGenerateConfigs">
+          <map>
+            <entry key="db_user:tb_user">
+              <value>
+                <TableGenerateConfig>
+                  <option name="deleteByPrimayKeyEnabled" value="false" />
+                  <option name="generatedKey" value="id" />
+                  <option name="insertMethodEnabled" value="false" />
+                  <option name="insertSelectiveMethodEnabled" value="false" />
+                  <option name="javaModelName" value="TbUser" />
+                  <option name="moduleName" value="provider-user-service" />
+                  <option name="selectByPrimaryKeyEnabled" value="false" />
+                  <option name="sequenceColumn" value="" />
+                  <option name="sequenceId" value="" />
+                  <option name="updateByPrimaryKeySelectiveEnabled" value="false" />
+                  <option name="updateByPrimaykeyEnabled" value="false" />
+                  <option name="useActualColumnName" value="false" />
+                </TableGenerateConfig>
+              </value>
+            </entry>
+          </map>
+        </option>
+        <option name="updateByPrimaryKeySelectiveEnabled" value="false" />
+        <option name="updateByPrimaykeyEnabled" value="false" />
+        <option name="useCommonMapper" value="true" />
+        <option name="xmlMapperPackage" value="mapper" />
+        <option name="xmlMapperPath" value="$PROJECT_DIR$/provider/provider-user-service/src/main/resources" />
+      </ProjectProfile>
+    </option>
+  </component>
+</project>

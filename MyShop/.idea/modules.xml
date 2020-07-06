@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/MyShop.iml" filepath="$PROJECT_DIR$/.idea/MyShop.iml" />
+      <module fileurl="file://$PROJECT_DIR$/business/business.iml" filepath="$PROJECT_DIR$/business/business.iml" />
+      <module fileurl="file://$PROJECT_DIR$/business/business-user-feign/business-user-feign.iml" filepath="$PROJECT_DIR$/business/business-user-feign/business-user-feign.iml" />
+      <module fileurl="file://$PROJECT_DIR$/business/business-user-service/business-user-service.iml" filepath="$PROJECT_DIR$/business/business-user-service/business-user-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/commons/commons.iml" filepath="$PROJECT_DIR$/commons/commons.iml" />
+      <module fileurl="file://$PROJECT_DIR$/commons/commons-domain/commons-domain.iml" filepath="$PROJECT_DIR$/commons/commons-domain/commons-domain.iml" />
+      <module fileurl="file://$PROJECT_DIR$/commons/commons-mapper/commons-mapper.iml" filepath="$PROJECT_DIR$/commons/commons-mapper/commons-mapper.iml" />
+      <module fileurl="file://$PROJECT_DIR$/dependencies/dependencies.iml" filepath="$PROJECT_DIR$/dependencies/dependencies.iml" />
+      <module fileurl="file://$PROJECT_DIR$/provider/provider.iml" filepath="$PROJECT_DIR$/provider/provider.iml" />
+      <module fileurl="file://$PROJECT_DIR$/provider/provider-user-api/provider-user-api.iml" filepath="$PROJECT_DIR$/provider/provider-user-api/provider-user-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/provider/provider-user-service/provider-user-service.iml" filepath="$PROJECT_DIR$/provider/provider-user-service/provider-user-service.iml" />
+    </modules>
+  </component>
+</project>
